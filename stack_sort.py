@@ -7,7 +7,6 @@ R = map(int, raw_input().split(' '))
 def sort(R):
     S = []
     t = R.pop()
-    while len(S) != n:
         if len(S) == 0 or (S[-1] <= t):
             S.append(t)
             if len(R) == 0:
